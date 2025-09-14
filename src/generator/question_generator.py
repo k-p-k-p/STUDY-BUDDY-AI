@@ -23,7 +23,7 @@ class QuestionGenerator:
                 parsed = parser.parse(response.content)
 
                 self.logger.info("Sucesfully parsed the question")
-
+                
                 return parsed
             
             except Exception as e:
